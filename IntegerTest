@@ -1,0 +1,14 @@
+public class IntegerTest {
+    public static void main(String[] args) {
+        Integer a = new Integer(3);
+        Integer b = 3;
+        Integer c = Integer.valueOf(3);
+        int d = 3;
+
+        System.out.println("a==b "+String.valueOf(a == b));
+        System.out.println("a==c "+String.valueOf(a==c));
+        System.out.println("b==c "+String.valueOf(b==c));
+        System.out.println("a==d "+String.valueOf(a==d));
+        System.out.println("b==d "+String.valueOf(b==d));
+    }
+}
